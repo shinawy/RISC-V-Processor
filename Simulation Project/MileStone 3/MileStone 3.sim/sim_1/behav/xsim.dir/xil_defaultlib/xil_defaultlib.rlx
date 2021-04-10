@@ -1,0 +1,24 @@
+0.6
+2016.4
+Dec 14 2016
+22:58:16
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v,1481753704,verilog,,,,glbl,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v,1604186807,verilog,,,,FullProcessor_tb,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v,1603932527,verilog,,,,ALU_control_unit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v,1605273474,verilog,,,,Accumulativeflip,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v,1605912378,verilog,,,,RegFile,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v,1601313666,verilog,,,,FullAdder;ripple0,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v,1603971272,verilog,,,,control_unit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v,1603917603,verilog,,,,decoder32,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/defines.v,1602891949,verilog,,,,,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v,1603917628,verilog,,,,dflipflop,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v,1540519090,verilog,,,C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/defines.v,rv32_ImmGen,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v,1603917782,verilog,,,,mux2,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v,1603917819,verilog,,,,mux4,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v,1605312482,verilog,,,,muxarray,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v,1605967095,verilog,,,C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/defines.v,prv32_ALU;shifter,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v,1606236492,verilog,,,C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/defines2.v,FullProcessorPipelined,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v,1605438667,verilog,,,,ForwardingUnit,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v,1606070783,verilog,,,,SingleMem,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3 Simulation/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v,1605456666,verilog,,,,clkdivider,,,,,,,,
+C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/defines2.v,1605276825,verilog,,,,,,,,,,,,

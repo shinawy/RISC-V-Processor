@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.srcs/sources_1/imports/sourses/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.srcs/sources_1/imports/sourses/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.srcs/sources_1/imports/sourses/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.srcs/sources_1/imports/sourses/ALU32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

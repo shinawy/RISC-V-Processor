@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/new/SingleMem.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/new/clkdivider.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/new/ForwardingUnit.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v"
+verilog xil_defaultlib  "../../../MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

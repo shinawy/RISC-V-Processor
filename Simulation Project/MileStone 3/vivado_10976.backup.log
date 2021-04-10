@@ -1,0 +1,3759 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Nov 21 12:16:30 2020
+# Process ID: 10976
+# Current directory: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7336 C:\Users\CSE.CAL\Desktop\MarawanMahmoud\Lec_Project_Code_rules\MileStone 3\MileStone 3.xpr
+# Log file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/vivado.log
+# Journal file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+
+****** Webtalk v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone -notrace
+couldn't read file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 21 12:25:01 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FullProcessor_tb_behav -key {Behavioral:sim_1:Functional:FullProcessor_tb} -tclbatch {FullProcessor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source FullProcessor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+scan_faults: 1  data: 9
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 0
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: a
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 0
+count: 11 
+scan_faults: 1  data:  
+count: 12 
+scan_faults: 1  data: 
+
+count: 13 
+scan_faults: 1  data: 2
+count: 14 
+scan_faults: 1  data: 3
+count: 15 
+scan_faults: 1  data:  
+count: 16 
+scan_faults: 1  data: a
+count: 17 
+scan_faults: 1  data: 0
+count: 18 
+scan_faults: 1  data:  
+count: 19 
+scan_faults: 1  data: 1
+count: 20 
+scan_faults: 1  data: 0
+count: 21 
+scan_faults: 1  data:  
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data: 0
+count: 24 
+scan_faults: 1  data:  
+count: 25 
+scan_faults: 1  data: 
+
+count: 26 
+scan_faults: 1  data: 0
+count: 27 
+scan_faults: 1  data: 3
+count: 28 
+scan_faults: 1  data:  
+count: 29 
+scan_faults: 1  data: a
+count: 30 
+scan_faults: 1  data: 2
+count: 31 
+scan_faults: 1  data:  
+count: 32 
+scan_faults: 1  data: 0
+count: 33 
+scan_faults: 1  data: 0
+count: 34 
+scan_faults: 1  data:  
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data: 0
+count: 37 
+scan_faults: 1  data:  
+count: 38 
+scan_faults: 1  data: 
+
+count: 39 
+scan_faults: 1  data: 1
+count: 40 
+scan_faults: 1  data: 3
+count: 41 
+scan_faults: 1  data:  
+count: 42 
+scan_faults: 1  data: 0
+count: 43 
+scan_faults: 1  data: 1
+count: 44 
+scan_faults: 1  data:  
+count: 45 
+scan_faults: 1  data: 2
+count: 46 
+scan_faults: 1  data: 0
+count: 47 
+scan_faults: 1  data:  
+count: 48 
+scan_faults: 1  data: 4
+count: 49 
+scan_faults: 1  data: d
+count: 50 
+scan_faults: 1  data:  
+count: 51 
+scan_faults: 1  data: 
+
+count: 52 
+scan_faults: 1  data: 9
+count: 53 
+scan_faults: 1  data: 3
+count: 54 
+scan_faults: 1  data:  
+count: 55 
+scan_faults: 1  data: 0
+count: 56 
+scan_faults: 1  data: 2
+count: 57 
+scan_faults: 1  data:  
+count: 58 
+scan_faults: 1  data: 0
+count: 59 
+scan_faults: 1  data: 0
+count: 60 
+scan_faults: 1  data:  
+count: 61 
+scan_faults: 1  data: 0
+count: 62 
+scan_faults: 1  data: 1
+count: 63 
+scan_faults: 1  data:  
+count: 64 
+scan_faults: 1  data: 
+
+count: 65 
+scan_faults: 1  data: 2
+count: 66 
+scan_faults: 1  data: 3
+count: 67 
+scan_faults: 1  data:  
+count: 68 
+scan_faults: 1  data: 0
+count: 69 
+scan_faults: 1  data: 0
+count: 70 
+scan_faults: 1  data:  
+count: 71 
+scan_faults: 1  data: 2
+count: 72 
+scan_faults: 1  data: 1
+count: 73 
+scan_faults: 1  data:  
+count: 74 
+scan_faults: 1  data: 0
+count: 75 
+scan_faults: 1  data: 0
+count: 76 
+scan_faults: 1  data:  
+count: 77 
+scan_faults: 1  data: 
+
+count: 78 
+scan_faults: 1  data: 0
+count: 79 
+scan_faults: 1  data: 3
+count: 80 
+scan_faults: 1  data:  
+count: 81 
+scan_faults: 1  data: 0
+count: 82 
+scan_faults: 1  data: 1
+count: 83 
+scan_faults: 1  data:  
+count: 84 
+scan_faults: 1  data: 0
+count: 85 
+scan_faults: 1  data: 1
+count: 86 
+scan_faults: 1  data:  
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data: 0
+count: 89 
+scan_faults: 1  data:  
+count: 90 
+scan_faults: 1  data: 
+
+count: 91 
+scan_faults: 1  data: 9
+count: 92 
+scan_faults: 1  data: 3
+count: 93 
+scan_faults: 1  data:  
+count: 94 
+scan_faults: 1  data: 0
+count: 95 
+scan_faults: 1  data: 1
+count: 96 
+scan_faults: 1  data:  
+count: 97 
+scan_faults: 1  data: 2
+count: 98 
+scan_faults: 1  data: 0
+count: 99 
+scan_faults: 1  data:  
+count: 100 
+scan_faults: 1  data: 4
+count: 101 
+scan_faults: 1  data: d
+count: 102 
+scan_faults: 1  data:  
+count: 103 
+scan_faults: 1  data: 
+
+count: 104 
+scan_faults: 1  data: 9
+count: 105 
+scan_faults: 1  data: 3
+count: 106 
+scan_faults: 1  data:  
+count: 107 
+scan_faults: 1  data: 0
+count: 108 
+scan_faults: 1  data: 2
+count: 109 
+scan_faults: 1  data:  
+count: 110 
+scan_faults: 1  data: 4
+count: 111 
+scan_faults: 1  data: 0
+count: 112 
+scan_faults: 1  data:  
+count: 113 
+scan_faults: 1  data: 0
+count: 114 
+scan_faults: 1  data: 1
+count: 115 
+scan_faults: 1  data:  
+count: 116 
+scan_faults: 1  data: 
+
+count: 117 
+scan_faults: 1  data: 2
+count: 118 
+scan_faults: 1  data: 3
+count: 119 
+scan_faults: 1  data:  
+count: 120 
+scan_faults: 1  data: 9
+count: 121 
+scan_faults: 1  data: 0
+count: 122 
+scan_faults: 1  data:  
+count: 123 
+scan_faults: 1  data: 3
+count: 124 
+scan_faults: 1  data: 2
+count: 125 
+scan_faults: 1  data:  
+count: 126 
+scan_faults: 1  data: 0
+count: 127 
+scan_faults: 1  data: 0
+count: 128 
+scan_faults: 1  data:  
+count: 129 
+scan_faults: 1  data: 
+
+count: 130 
+scan_faults: 1  data: 8
+count: 131 
+scan_faults: 1  data: 3
+count: 132 
+scan_faults: 1  data:  
+count: 133 
+scan_faults: 1  data: 9
+count: 134 
+scan_faults: 1  data: 1
+count: 135 
+scan_faults: 1  data:  
+count: 136 
+scan_faults: 1  data: 0
+count: 137 
+scan_faults: 1  data: 2
+count: 138 
+scan_faults: 1  data:  
+count: 139 
+scan_faults: 1  data: 0
+count: 140 
+scan_faults: 1  data: 0
+count: 141 
+scan_faults: 1  data:  
+count: 142 
+scan_faults: 1  data: 
+
+count: 143 
+scan_faults: 1  data: 1
+count: 144 
+scan_faults: 1  data: 3
+count: 145 
+scan_faults: 1  data:  
+count: 146 
+scan_faults: 1  data: 0
+count: 147 
+scan_faults: 1  data: 1
+count: 148 
+scan_faults: 1  data:  
+count: 149 
+scan_faults: 1  data: 2
+count: 150 
+scan_faults: 1  data: 0
+count: 151 
+scan_faults: 1  data:  
+count: 152 
+scan_faults: 1  data: 4
+count: 153 
+scan_faults: 1  data: d
+count: 154 
+scan_faults: 1  data:  
+count: 155 
+scan_faults: 1  data: 
+
+count: 156 
+scan_faults: 1  data: 9
+count: 157 
+scan_faults: 1  data: 3
+count: 158 
+scan_faults: 1  data:  
+count: 159 
+scan_faults: 1  data: 0
+count: 160 
+scan_faults: 1  data: 2
+count: 161 
+scan_faults: 1  data:  
+count: 162 
+scan_faults: 1  data: 0
+count: 163 
+scan_faults: 1  data: 0
+count: 164 
+scan_faults: 1  data:  
+count: 165 
+scan_faults: 1  data: 0
+count: 166 
+scan_faults: 1  data: 1
+count: 167 
+scan_faults: 1  data:  
+count: 168 
+scan_faults: 1  data: 
+
+count: 169 
+scan_faults: 1  data: 2
+count: 170 
+scan_faults: 1  data: 3
+count: 171 
+scan_faults: 1  data:  
+count: 172 
+scan_faults: 1  data: 0
+count: 173 
+scan_faults: 1  data: 0
+count: 174 
+scan_faults: 1  data:  
+count: 175 
+scan_faults: 1  data: 2
+count: 176 
+scan_faults: 1  data: 1
+count: 177 
+scan_faults: 1  data:  
+count: 178 
+scan_faults: 1  data: 0
+count: 179 
+scan_faults: 1  data: 0
+count: 180 
+scan_faults: 1  data:  
+count: 181 
+scan_faults: 1  data: 
+
+count: 182 
+scan_faults: 1  data: 0
+count: 183 
+scan_faults: 1  data: 3
+count: 184 
+scan_faults: 1  data:  
+count: 185 
+scan_faults: 1  data: 4
+count: 186 
+scan_faults: 1  data: 1
+count: 187 
+scan_faults: 1  data:  
+count: 188 
+scan_faults: 1  data: 0
+count: 189 
+scan_faults: 1  data: 1
+count: 190 
+scan_faults: 1  data:  
+count: 191 
+scan_faults: 1  data: 0
+count: 192 
+scan_faults: 1  data: 0
+count: 193 
+scan_faults: 1  data:  
+count: 194 
+scan_faults: 1  data:  
+count: 195 
+scan_faults: 0  data:  
+count: 196 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FullProcessor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 833.867 ; gain = 10.707
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+scan_faults: 1  data: 9
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 0
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: a
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 0
+count: 11 
+scan_faults: 1  data:  
+count: 12 
+scan_faults: 1  data: 
+
+count: 13 
+scan_faults: 1  data: 2
+count: 14 
+scan_faults: 1  data: 3
+count: 15 
+scan_faults: 1  data:  
+count: 16 
+scan_faults: 1  data: a
+count: 17 
+scan_faults: 1  data: 0
+count: 18 
+scan_faults: 1  data:  
+count: 19 
+scan_faults: 1  data: 1
+count: 20 
+scan_faults: 1  data: 0
+count: 21 
+scan_faults: 1  data:  
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data: 0
+count: 24 
+scan_faults: 1  data:  
+count: 25 
+scan_faults: 1  data: 
+
+count: 26 
+scan_faults: 1  data: 0
+count: 27 
+scan_faults: 1  data: 3
+count: 28 
+scan_faults: 1  data:  
+count: 29 
+scan_faults: 1  data: a
+count: 30 
+scan_faults: 1  data: 2
+count: 31 
+scan_faults: 1  data:  
+count: 32 
+scan_faults: 1  data: 0
+count: 33 
+scan_faults: 1  data: 0
+count: 34 
+scan_faults: 1  data:  
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data: 0
+count: 37 
+scan_faults: 1  data:  
+count: 38 
+scan_faults: 1  data: 
+
+count: 39 
+scan_faults: 1  data: 1
+count: 40 
+scan_faults: 1  data: 3
+count: 41 
+scan_faults: 1  data:  
+count: 42 
+scan_faults: 1  data: 0
+count: 43 
+scan_faults: 1  data: 1
+count: 44 
+scan_faults: 1  data:  
+count: 45 
+scan_faults: 1  data: 2
+count: 46 
+scan_faults: 1  data: 0
+count: 47 
+scan_faults: 1  data:  
+count: 48 
+scan_faults: 1  data: 4
+count: 49 
+scan_faults: 1  data: d
+count: 50 
+scan_faults: 1  data:  
+count: 51 
+scan_faults: 1  data: 
+
+count: 52 
+scan_faults: 1  data: 9
+count: 53 
+scan_faults: 1  data: 3
+count: 54 
+scan_faults: 1  data:  
+count: 55 
+scan_faults: 1  data: 0
+count: 56 
+scan_faults: 1  data: 2
+count: 57 
+scan_faults: 1  data:  
+count: 58 
+scan_faults: 1  data: 0
+count: 59 
+scan_faults: 1  data: 0
+count: 60 
+scan_faults: 1  data:  
+count: 61 
+scan_faults: 1  data: 0
+count: 62 
+scan_faults: 1  data: 1
+count: 63 
+scan_faults: 1  data:  
+count: 64 
+scan_faults: 1  data: 
+
+count: 65 
+scan_faults: 1  data: 2
+count: 66 
+scan_faults: 1  data: 3
+count: 67 
+scan_faults: 1  data:  
+count: 68 
+scan_faults: 1  data: 0
+count: 69 
+scan_faults: 1  data: 0
+count: 70 
+scan_faults: 1  data:  
+count: 71 
+scan_faults: 1  data: 2
+count: 72 
+scan_faults: 1  data: 1
+count: 73 
+scan_faults: 1  data:  
+count: 74 
+scan_faults: 1  data: 0
+count: 75 
+scan_faults: 1  data: 0
+count: 76 
+scan_faults: 1  data:  
+count: 77 
+scan_faults: 1  data: 
+
+count: 78 
+scan_faults: 1  data: 0
+count: 79 
+scan_faults: 1  data: 3
+count: 80 
+scan_faults: 1  data:  
+count: 81 
+scan_faults: 1  data: 0
+count: 82 
+scan_faults: 1  data: 1
+count: 83 
+scan_faults: 1  data:  
+count: 84 
+scan_faults: 1  data: 0
+count: 85 
+scan_faults: 1  data: 1
+count: 86 
+scan_faults: 1  data:  
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data: 0
+count: 89 
+scan_faults: 1  data:  
+count: 90 
+scan_faults: 1  data: 
+
+count: 91 
+scan_faults: 1  data: 9
+count: 92 
+scan_faults: 1  data: 3
+count: 93 
+scan_faults: 1  data:  
+count: 94 
+scan_faults: 1  data: 0
+count: 95 
+scan_faults: 1  data: 1
+count: 96 
+scan_faults: 1  data:  
+count: 97 
+scan_faults: 1  data: 2
+count: 98 
+scan_faults: 1  data: 0
+count: 99 
+scan_faults: 1  data:  
+count: 100 
+scan_faults: 1  data: 4
+count: 101 
+scan_faults: 1  data: d
+count: 102 
+scan_faults: 1  data:  
+count: 103 
+scan_faults: 1  data: 
+
+count: 104 
+scan_faults: 1  data: 9
+count: 105 
+scan_faults: 1  data: 3
+count: 106 
+scan_faults: 1  data:  
+count: 107 
+scan_faults: 1  data: 0
+count: 108 
+scan_faults: 1  data: 2
+count: 109 
+scan_faults: 1  data:  
+count: 110 
+scan_faults: 1  data: 4
+count: 111 
+scan_faults: 1  data: 0
+count: 112 
+scan_faults: 1  data:  
+count: 113 
+scan_faults: 1  data: 0
+count: 114 
+scan_faults: 1  data: 1
+count: 115 
+scan_faults: 1  data:  
+count: 116 
+scan_faults: 1  data: 
+
+count: 117 
+scan_faults: 1  data: 2
+count: 118 
+scan_faults: 1  data: 3
+count: 119 
+scan_faults: 1  data:  
+count: 120 
+scan_faults: 1  data: 9
+count: 121 
+scan_faults: 1  data: 0
+count: 122 
+scan_faults: 1  data:  
+count: 123 
+scan_faults: 1  data: 3
+count: 124 
+scan_faults: 1  data: 2
+count: 125 
+scan_faults: 1  data:  
+count: 126 
+scan_faults: 1  data: 0
+count: 127 
+scan_faults: 1  data: 0
+count: 128 
+scan_faults: 1  data:  
+count: 129 
+scan_faults: 1  data: 
+
+count: 130 
+scan_faults: 1  data: 8
+count: 131 
+scan_faults: 1  data: 3
+count: 132 
+scan_faults: 1  data:  
+count: 133 
+scan_faults: 1  data: 9
+count: 134 
+scan_faults: 1  data: 1
+count: 135 
+scan_faults: 1  data:  
+count: 136 
+scan_faults: 1  data: 0
+count: 137 
+scan_faults: 1  data: 2
+count: 138 
+scan_faults: 1  data:  
+count: 139 
+scan_faults: 1  data: 0
+count: 140 
+scan_faults: 1  data: 0
+count: 141 
+scan_faults: 1  data:  
+count: 142 
+scan_faults: 1  data: 
+
+count: 143 
+scan_faults: 1  data: 1
+count: 144 
+scan_faults: 1  data: 3
+count: 145 
+scan_faults: 1  data:  
+count: 146 
+scan_faults: 1  data: 0
+count: 147 
+scan_faults: 1  data: 1
+count: 148 
+scan_faults: 1  data:  
+count: 149 
+scan_faults: 1  data: 2
+count: 150 
+scan_faults: 1  data: 0
+count: 151 
+scan_faults: 1  data:  
+count: 152 
+scan_faults: 1  data: 4
+count: 153 
+scan_faults: 1  data: d
+count: 154 
+scan_faults: 1  data:  
+count: 155 
+scan_faults: 1  data: 
+
+count: 156 
+scan_faults: 1  data: 9
+count: 157 
+scan_faults: 1  data: 3
+count: 158 
+scan_faults: 1  data:  
+count: 159 
+scan_faults: 1  data: 0
+count: 160 
+scan_faults: 1  data: 2
+count: 161 
+scan_faults: 1  data:  
+count: 162 
+scan_faults: 1  data: 0
+count: 163 
+scan_faults: 1  data: 0
+count: 164 
+scan_faults: 1  data:  
+count: 165 
+scan_faults: 1  data: 0
+count: 166 
+scan_faults: 1  data: 1
+count: 167 
+scan_faults: 1  data:  
+count: 168 
+scan_faults: 1  data: 
+
+count: 169 
+scan_faults: 1  data: 2
+count: 170 
+scan_faults: 1  data: 3
+count: 171 
+scan_faults: 1  data:  
+count: 172 
+scan_faults: 1  data: 0
+count: 173 
+scan_faults: 1  data: 0
+count: 174 
+scan_faults: 1  data:  
+count: 175 
+scan_faults: 1  data: 2
+count: 176 
+scan_faults: 1  data: 1
+count: 177 
+scan_faults: 1  data:  
+count: 178 
+scan_faults: 1  data: 0
+count: 179 
+scan_faults: 1  data: 0
+count: 180 
+scan_faults: 1  data:  
+count: 181 
+scan_faults: 1  data: 
+
+count: 182 
+scan_faults: 1  data: 0
+count: 183 
+scan_faults: 1  data: 3
+count: 184 
+scan_faults: 1  data:  
+count: 185 
+scan_faults: 1  data: 4
+count: 186 
+scan_faults: 1  data: 1
+count: 187 
+scan_faults: 1  data:  
+count: 188 
+scan_faults: 1  data: 0
+count: 189 
+scan_faults: 1  data: 1
+count: 190 
+scan_faults: 1  data:  
+count: 191 
+scan_faults: 1  data: 0
+count: 192 
+scan_faults: 1  data: 0
+count: 193 
+scan_faults: 1  data:  
+count: 194 
+scan_faults: 1  data:  
+count: 195 
+scan_faults: 0  data:  
+count: 196 
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 849.117 ; gain = 3.996
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+scan_faults: 1  data: 9
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 0
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: a
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 0
+count: 11 
+scan_faults: 1  data:  
+count: 12 
+scan_faults: 1  data: 
+
+count: 13 
+scan_faults: 1  data: 2
+count: 14 
+scan_faults: 1  data: 3
+count: 15 
+scan_faults: 1  data:  
+count: 16 
+scan_faults: 1  data: a
+count: 17 
+scan_faults: 1  data: 0
+count: 18 
+scan_faults: 1  data:  
+count: 19 
+scan_faults: 1  data: 1
+count: 20 
+scan_faults: 1  data: 0
+count: 21 
+scan_faults: 1  data:  
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data: 0
+count: 24 
+scan_faults: 1  data:  
+count: 25 
+scan_faults: 1  data: 
+
+count: 26 
+scan_faults: 1  data: 0
+count: 27 
+scan_faults: 1  data: 3
+count: 28 
+scan_faults: 1  data:  
+count: 29 
+scan_faults: 1  data: a
+count: 30 
+scan_faults: 1  data: 2
+count: 31 
+scan_faults: 1  data:  
+count: 32 
+scan_faults: 1  data: 0
+count: 33 
+scan_faults: 1  data: 0
+count: 34 
+scan_faults: 1  data:  
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data: 0
+count: 37 
+scan_faults: 1  data:  
+count: 38 
+scan_faults: 1  data: 
+
+count: 39 
+scan_faults: 1  data: 1
+count: 40 
+scan_faults: 1  data: 3
+count: 41 
+scan_faults: 1  data:  
+count: 42 
+scan_faults: 1  data: 0
+count: 43 
+scan_faults: 1  data: 1
+count: 44 
+scan_faults: 1  data:  
+count: 45 
+scan_faults: 1  data: 2
+count: 46 
+scan_faults: 1  data: 0
+count: 47 
+scan_faults: 1  data:  
+count: 48 
+scan_faults: 1  data: 4
+count: 49 
+scan_faults: 1  data: d
+count: 50 
+scan_faults: 1  data:  
+count: 51 
+scan_faults: 1  data: 
+
+count: 52 
+scan_faults: 1  data: 9
+count: 53 
+scan_faults: 1  data: 3
+count: 54 
+scan_faults: 1  data:  
+count: 55 
+scan_faults: 1  data: 0
+count: 56 
+scan_faults: 1  data: 2
+count: 57 
+scan_faults: 1  data:  
+count: 58 
+scan_faults: 1  data: 0
+count: 59 
+scan_faults: 1  data: 0
+count: 60 
+scan_faults: 1  data:  
+count: 61 
+scan_faults: 1  data: 0
+count: 62 
+scan_faults: 1  data: 1
+count: 63 
+scan_faults: 1  data:  
+count: 64 
+scan_faults: 1  data: 
+
+count: 65 
+scan_faults: 1  data: 2
+count: 66 
+scan_faults: 1  data: 3
+count: 67 
+scan_faults: 1  data:  
+count: 68 
+scan_faults: 1  data: 0
+count: 69 
+scan_faults: 1  data: 0
+count: 70 
+scan_faults: 1  data:  
+count: 71 
+scan_faults: 1  data: 2
+count: 72 
+scan_faults: 1  data: 1
+count: 73 
+scan_faults: 1  data:  
+count: 74 
+scan_faults: 1  data: 0
+count: 75 
+scan_faults: 1  data: 0
+count: 76 
+scan_faults: 1  data:  
+count: 77 
+scan_faults: 1  data: 
+
+count: 78 
+scan_faults: 1  data: 0
+count: 79 
+scan_faults: 1  data: 3
+count: 80 
+scan_faults: 1  data:  
+count: 81 
+scan_faults: 1  data: 0
+count: 82 
+scan_faults: 1  data: 1
+count: 83 
+scan_faults: 1  data:  
+count: 84 
+scan_faults: 1  data: 0
+count: 85 
+scan_faults: 1  data: 1
+count: 86 
+scan_faults: 1  data:  
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data: 0
+count: 89 
+scan_faults: 1  data:  
+count: 90 
+scan_faults: 1  data: 
+
+count: 91 
+scan_faults: 1  data: 9
+count: 92 
+scan_faults: 1  data: 3
+count: 93 
+scan_faults: 1  data:  
+count: 94 
+scan_faults: 1  data: 0
+count: 95 
+scan_faults: 1  data: 1
+count: 96 
+scan_faults: 1  data:  
+count: 97 
+scan_faults: 1  data: 2
+count: 98 
+scan_faults: 1  data: 0
+count: 99 
+scan_faults: 1  data:  
+count: 100 
+scan_faults: 1  data: 4
+count: 101 
+scan_faults: 1  data: d
+count: 102 
+scan_faults: 1  data:  
+count: 103 
+scan_faults: 1  data: 
+
+count: 104 
+scan_faults: 1  data: 9
+count: 105 
+scan_faults: 1  data: 3
+count: 106 
+scan_faults: 1  data:  
+count: 107 
+scan_faults: 1  data: 0
+count: 108 
+scan_faults: 1  data: 2
+count: 109 
+scan_faults: 1  data:  
+count: 110 
+scan_faults: 1  data: 4
+count: 111 
+scan_faults: 1  data: 0
+count: 112 
+scan_faults: 1  data:  
+count: 113 
+scan_faults: 1  data: 0
+count: 114 
+scan_faults: 1  data: 1
+count: 115 
+scan_faults: 1  data:  
+count: 116 
+scan_faults: 1  data: 
+
+count: 117 
+scan_faults: 1  data: 2
+count: 118 
+scan_faults: 1  data: 3
+count: 119 
+scan_faults: 1  data:  
+count: 120 
+scan_faults: 1  data: 9
+count: 121 
+scan_faults: 1  data: 0
+count: 122 
+scan_faults: 1  data:  
+count: 123 
+scan_faults: 1  data: 3
+count: 124 
+scan_faults: 1  data: 2
+count: 125 
+scan_faults: 1  data:  
+count: 126 
+scan_faults: 1  data: 0
+count: 127 
+scan_faults: 1  data: 0
+count: 128 
+scan_faults: 1  data:  
+count: 129 
+scan_faults: 1  data: 
+
+count: 130 
+scan_faults: 1  data: 8
+count: 131 
+scan_faults: 1  data: 3
+count: 132 
+scan_faults: 1  data:  
+count: 133 
+scan_faults: 1  data: 9
+count: 134 
+scan_faults: 1  data: 1
+count: 135 
+scan_faults: 1  data:  
+count: 136 
+scan_faults: 1  data: 0
+count: 137 
+scan_faults: 1  data: 2
+count: 138 
+scan_faults: 1  data:  
+count: 139 
+scan_faults: 1  data: 0
+count: 140 
+scan_faults: 1  data: 0
+count: 141 
+scan_faults: 1  data:  
+count: 142 
+scan_faults: 1  data: 
+
+count: 143 
+scan_faults: 1  data: 1
+count: 144 
+scan_faults: 1  data: 3
+count: 145 
+scan_faults: 1  data:  
+count: 146 
+scan_faults: 1  data: 0
+count: 147 
+scan_faults: 1  data: 1
+count: 148 
+scan_faults: 1  data:  
+count: 149 
+scan_faults: 1  data: 2
+count: 150 
+scan_faults: 1  data: 0
+count: 151 
+scan_faults: 1  data:  
+count: 152 
+scan_faults: 1  data: 4
+count: 153 
+scan_faults: 1  data: d
+count: 154 
+scan_faults: 1  data:  
+count: 155 
+scan_faults: 1  data: 
+
+count: 156 
+scan_faults: 1  data: 9
+count: 157 
+scan_faults: 1  data: 3
+count: 158 
+scan_faults: 1  data:  
+count: 159 
+scan_faults: 1  data: 0
+count: 160 
+scan_faults: 1  data: 2
+count: 161 
+scan_faults: 1  data:  
+count: 162 
+scan_faults: 1  data: 0
+count: 163 
+scan_faults: 1  data: 0
+count: 164 
+scan_faults: 1  data:  
+count: 165 
+scan_faults: 1  data: 0
+count: 166 
+scan_faults: 1  data: 1
+count: 167 
+scan_faults: 1  data:  
+count: 168 
+scan_faults: 1  data: 
+
+count: 169 
+scan_faults: 1  data: 2
+count: 170 
+scan_faults: 1  data: 3
+count: 171 
+scan_faults: 1  data:  
+count: 172 
+scan_faults: 1  data: 0
+count: 173 
+scan_faults: 1  data: 0
+count: 174 
+scan_faults: 1  data:  
+count: 175 
+scan_faults: 1  data: 2
+count: 176 
+scan_faults: 1  data: 1
+count: 177 
+scan_faults: 1  data:  
+count: 178 
+scan_faults: 1  data: 0
+count: 179 
+scan_faults: 1  data: 0
+count: 180 
+scan_faults: 1  data:  
+count: 181 
+scan_faults: 1  data: 
+
+count: 182 
+scan_faults: 1  data: 0
+count: 183 
+scan_faults: 1  data: 3
+count: 184 
+scan_faults: 1  data:  
+count: 185 
+scan_faults: 1  data: 4
+count: 186 
+scan_faults: 1  data: 1
+count: 187 
+scan_faults: 1  data:  
+count: 188 
+scan_faults: 1  data: 0
+count: 189 
+scan_faults: 1  data: 1
+count: 190 
+scan_faults: 1  data:  
+count: 191 
+scan_faults: 1  data: 0
+count: 192 
+scan_faults: 1  data: 0
+count: 193 
+scan_faults: 1  data:  
+count: 194 
+scan_faults: 1  data:  
+count: 195 
+scan_faults: 0  data:  
+count: 196 
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 870.527 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+scan_faults: 1  data: 1
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 3
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: a
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 4
+count: 11 
+scan_faults: 1  data: 
+
+count: 12 
+scan_faults: 1  data: 9
+count: 13 
+scan_faults: 1  data: 3
+count: 14 
+scan_faults: 1  data:  
+count: 15 
+scan_faults: 1  data: 0
+count: 16 
+scan_faults: 1  data: 0
+count: 17 
+scan_faults: 1  data:  
+count: 18 
+scan_faults: 1  data: a
+count: 19 
+scan_faults: 1  data: 0
+count: 20 
+scan_faults: 1  data:  
+count: 21 
+scan_faults: 1  data: 0
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data:  
+count: 24 
+scan_faults: 1  data: 
+
+count: 25 
+scan_faults: 1  data: 2
+count: 26 
+scan_faults: 1  data: 3
+count: 27 
+scan_faults: 1  data:  
+count: 28 
+scan_faults: 1  data: a
+count: 29 
+scan_faults: 1  data: 0
+count: 30 
+scan_faults: 1  data:  
+count: 31 
+scan_faults: 1  data: 1
+count: 32 
+scan_faults: 1  data: 0
+count: 33 
+scan_faults: 1  data:  
+count: 34 
+scan_faults: 1  data: 0
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data:  
+count: 37 
+scan_faults: 1  data: 
+
+count: 38 
+scan_faults: 1  data: 0
+count: 39 
+scan_faults: 1  data: 3
+count: 40 
+scan_faults: 1  data:  
+count: 41 
+scan_faults: 1  data: a
+count: 42 
+scan_faults: 1  data: 2
+count: 43 
+scan_faults: 1  data:  
+count: 44 
+scan_faults: 1  data: 0
+count: 45 
+scan_faults: 1  data: 0
+count: 46 
+scan_faults: 1  data:  
+count: 47 
+scan_faults: 1  data: 0
+count: 48 
+scan_faults: 1  data: 0
+count: 49 
+scan_faults: 1  data:  
+count: 50 
+scan_faults: 1  data: 
+
+count: 51 
+scan_faults: 1  data: 1
+count: 52 
+scan_faults: 1  data: 3
+count: 53 
+scan_faults: 1  data:  
+count: 54 
+scan_faults: 1  data: 0
+count: 55 
+scan_faults: 1  data: 1
+count: 56 
+scan_faults: 1  data:  
+count: 57 
+scan_faults: 1  data: 2
+count: 58 
+scan_faults: 1  data: 0
+count: 59 
+scan_faults: 1  data:  
+count: 60 
+scan_faults: 1  data: 4
+count: 61 
+scan_faults: 1  data: d
+count: 62 
+scan_faults: 1  data:  
+count: 63 
+scan_faults: 1  data: 
+
+count: 64 
+scan_faults: 1  data: 9
+count: 65 
+scan_faults: 1  data: 3
+count: 66 
+scan_faults: 1  data:  
+count: 67 
+scan_faults: 1  data: 0
+count: 68 
+scan_faults: 1  data: 2
+count: 69 
+scan_faults: 1  data:  
+count: 70 
+scan_faults: 1  data: 0
+count: 71 
+scan_faults: 1  data: 0
+count: 72 
+scan_faults: 1  data:  
+count: 73 
+scan_faults: 1  data: 0
+count: 74 
+scan_faults: 1  data: 1
+count: 75 
+scan_faults: 1  data:  
+count: 76 
+scan_faults: 1  data: 
+
+count: 77 
+scan_faults: 1  data: 2
+count: 78 
+scan_faults: 1  data: 3
+count: 79 
+scan_faults: 1  data:  
+count: 80 
+scan_faults: 1  data: 8
+count: 81 
+scan_faults: 1  data: 0
+count: 82 
+scan_faults: 1  data:  
+count: 83 
+scan_faults: 1  data: 2
+count: 84 
+scan_faults: 1  data: 2
+count: 85 
+scan_faults: 1  data:  
+count: 86 
+scan_faults: 1  data: 0
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data:  
+count: 89 
+scan_faults: 1  data: 
+
+count: 90 
+scan_faults: 1  data: 0
+count: 91 
+scan_faults: 1  data: 3
+count: 92 
+scan_faults: 1  data:  
+count: 93 
+scan_faults: 1  data: 8
+count: 94 
+scan_faults: 1  data: 1
+count: 95 
+scan_faults: 1  data:  
+count: 96 
+scan_faults: 1  data: 0
+count: 97 
+scan_faults: 1  data: 2
+count: 98 
+scan_faults: 1  data:  
+count: 99 
+scan_faults: 1  data: 0
+count: 100 
+scan_faults: 1  data: 0
+count: 101 
+scan_faults: 1  data:  
+count: 102 
+scan_faults: 1  data: 
+
+count: 103 
+scan_faults: 1  data: 9
+count: 104 
+scan_faults: 1  data: 3
+count: 105 
+scan_faults: 1  data:  
+count: 106 
+scan_faults: 1  data: 0
+count: 107 
+scan_faults: 1  data: 1
+count: 108 
+scan_faults: 1  data:  
+count: 109 
+scan_faults: 1  data: 2
+count: 110 
+scan_faults: 1  data: 0
+count: 111 
+scan_faults: 1  data:  
+count: 112 
+scan_faults: 1  data: 4
+count: 113 
+scan_faults: 1  data: d
+count: 114 
+scan_faults: 1  data:  
+count: 115 
+scan_faults: 1  data: 
+
+count: 116 
+scan_faults: 1  data: 9
+count: 117 
+scan_faults: 1  data: 3
+count: 118 
+scan_faults: 1  data:  
+count: 119 
+scan_faults: 1  data: 0
+count: 120 
+scan_faults: 1  data: 2
+count: 121 
+scan_faults: 1  data:  
+count: 122 
+scan_faults: 1  data: 4
+count: 123 
+scan_faults: 1  data: 0
+count: 124 
+scan_faults: 1  data:  
+count: 125 
+scan_faults: 1  data: 0
+count: 126 
+scan_faults: 1  data: 1
+count: 127 
+scan_faults: 1  data:  
+count: 128 
+scan_faults: 1  data: 
+
+count: 129 
+scan_faults: 1  data: 2
+count: 130 
+scan_faults: 1  data: 3
+count: 131 
+scan_faults: 1  data:  
+count: 132 
+scan_faults: 1  data: 9
+count: 133 
+scan_faults: 1  data: 0
+count: 134 
+scan_faults: 1  data:  
+count: 135 
+scan_faults: 1  data: 3
+count: 136 
+scan_faults: 1  data: 2
+count: 137 
+scan_faults: 1  data:  
+count: 138 
+scan_faults: 1  data: 0
+count: 139 
+scan_faults: 1  data: 0
+count: 140 
+scan_faults: 1  data:  
+count: 141 
+scan_faults: 1  data: 
+
+count: 142 
+scan_faults: 1  data: 8
+count: 143 
+scan_faults: 1  data: 3
+count: 144 
+scan_faults: 1  data:  
+count: 145 
+scan_faults: 1  data: 9
+count: 146 
+scan_faults: 1  data: 1
+count: 147 
+scan_faults: 1  data:  
+count: 148 
+scan_faults: 1  data: 0
+count: 149 
+scan_faults: 1  data: 2
+count: 150 
+scan_faults: 1  data:  
+count: 151 
+scan_faults: 1  data: 0
+count: 152 
+scan_faults: 1  data: 0
+count: 153 
+scan_faults: 1  data:  
+count: 154 
+scan_faults: 1  data: 
+
+count: 155 
+scan_faults: 1  data: 1
+count: 156 
+scan_faults: 1  data: 3
+count: 157 
+scan_faults: 1  data:  
+count: 158 
+scan_faults: 1  data: 0
+count: 159 
+scan_faults: 1  data: 3
+count: 160 
+scan_faults: 1  data:  
+count: 161 
+scan_faults: 1  data: 2
+count: 162 
+scan_faults: 1  data: 0
+count: 163 
+scan_faults: 1  data:  
+count: 164 
+scan_faults: 1  data: 4
+count: 165 
+scan_faults: 1  data: d
+count: 166 
+scan_faults: 1  data:  
+count: 167 
+scan_faults: 1  data: 
+
+count: 168 
+scan_faults: 1  data: 9
+count: 169 
+scan_faults: 1  data: 3
+count: 170 
+scan_faults: 1  data:  
+count: 171 
+scan_faults: 1  data: 0
+count: 172 
+scan_faults: 1  data: 2
+count: 173 
+scan_faults: 1  data:  
+count: 174 
+scan_faults: 1  data: 0
+count: 175 
+scan_faults: 1  data: 0
+count: 176 
+scan_faults: 1  data:  
+count: 177 
+scan_faults: 1  data: 0
+count: 178 
+scan_faults: 1  data: 1
+count: 179 
+scan_faults: 1  data:  
+count: 180 
+scan_faults: 1  data: 
+
+count: 181 
+scan_faults: 1  data: 2
+count: 182 
+scan_faults: 1  data: 3
+count: 183 
+scan_faults: 1  data:  
+count: 184 
+scan_faults: 1  data: 8
+count: 185 
+scan_faults: 1  data: 0
+count: 186 
+scan_faults: 1  data:  
+count: 187 
+scan_faults: 1  data: 6
+count: 188 
+scan_faults: 1  data: 2
+count: 189 
+scan_faults: 1  data:  
+count: 190 
+scan_faults: 1  data: 0
+count: 191 
+scan_faults: 1  data: 0
+count: 192 
+scan_faults: 1  data:  
+count: 193 
+scan_faults: 1  data: 
+
+count: 194 
+scan_faults: 1  data: 8
+count: 195 
+scan_faults: 1  data: 3
+count: 196 
+scan_faults: 1  data:  
+count: 197 
+scan_faults: 1  data: c
+count: 198 
+scan_faults: 1  data: 3
+count: 199 
+scan_faults: 1  data:  
+count: 200 
+scan_faults: 1  data: 0
+count: 201 
+scan_faults: 1  data: 2
+count: 202 
+scan_faults: 1  data:  
+count: 203 
+scan_faults: 1  data: 0
+count: 204 
+scan_faults: 1  data: 0
+count: 205 
+scan_faults: 1  data: 
+
+count: 206 
+scan_faults: 0  data:  
+count: 207 
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 918.801 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+scan_faults: 1  data: 1
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 3
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: 7
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 0
+count: 11 
+scan_faults: 1  data:  
+count: 12 
+scan_faults: 1  data: 
+
+count: 13 
+scan_faults: 1  data: 9
+count: 14 
+scan_faults: 1  data: 3
+count: 15 
+scan_faults: 1  data:  
+count: 16 
+scan_faults: 1  data: 0
+count: 17 
+scan_faults: 1  data: 2
+count: 18 
+scan_faults: 1  data:  
+count: 19 
+scan_faults: 1  data: 3
+count: 20 
+scan_faults: 1  data: 0
+count: 21 
+scan_faults: 1  data:  
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data: 1
+count: 24 
+scan_faults: 1  data:  
+count: 25 
+scan_faults: 1  data: 
+
+count: 26 
+scan_faults: 1  data: 9
+count: 27 
+scan_faults: 1  data: 3
+count: 28 
+scan_faults: 1  data:  
+count: 29 
+scan_faults: 1  data: 8
+count: 30 
+scan_faults: 1  data: 6
+count: 31 
+scan_faults: 1  data:  
+count: 32 
+scan_faults: 1  data: 1
+count: 33 
+scan_faults: 1  data: 2
+count: 34 
+scan_faults: 1  data:  
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data: 0
+count: 37 
+scan_faults: 1  data:  
+count: 38 
+scan_faults: 1  data: 
+
+count: 39 
+scan_faults: 1  data: 9
+count: 40 
+scan_faults: 1  data: 3
+count: 41 
+scan_faults: 1  data:  
+count: 42 
+scan_faults: 1  data: a
+count: 43 
+scan_faults: 1  data: 0
+count: 44 
+scan_faults: 1  data:  
+count: 45 
+scan_faults: 1  data: f
+count: 46 
+scan_faults: 1  data: 2
+count: 47 
+scan_faults: 1  data:  
+count: 48 
+scan_faults: 1  data: f
+count: 49 
+scan_faults: 1  data: e
+count: 50 
+scan_faults: 1  data:  
+count: 51 
+scan_faults: 1  data: 
+
+count: 52 
+scan_faults: 1  data: 1
+count: 53 
+scan_faults: 1  data: 3
+count: 54 
+scan_faults: 1  data:  
+count: 55 
+scan_faults: 1  data: b
+count: 56 
+scan_faults: 1  data: 1
+count: 57 
+scan_faults: 1  data:  
+count: 58 
+scan_faults: 1  data: f
+count: 59 
+scan_faults: 1  data: 2
+count: 60 
+scan_faults: 1  data:  
+count: 61 
+scan_faults: 1  data: f
+count: 62 
+scan_faults: 1  data: e
+count: 63 
+scan_faults: 1  data:  
+count: 64 
+scan_faults: 1  data: 
+
+count: 65 
+scan_faults: 1  data: 1
+count: 66 
+scan_faults: 1  data: 3
+count: 67 
+scan_faults: 1  data:  
+count: 68 
+scan_faults: 1  data: 4
+count: 69 
+scan_faults: 1  data: 2
+count: 70 
+scan_faults: 1  data:  
+count: 71 
+scan_faults: 1  data: 9
+count: 72 
+scan_faults: 1  data: 3
+count: 73 
+scan_faults: 1  data:  
+count: 74 
+scan_faults: 1  data: 0
+count: 75 
+scan_faults: 1  data: 1
+count: 76 
+scan_faults: 1  data:  
+count: 77 
+scan_faults: 1  data: 
+
+count: 78 
+scan_faults: 1  data: 1
+count: 79 
+scan_faults: 1  data: 3
+count: 80 
+scan_faults: 1  data:  
+count: 81 
+scan_faults: 1  data: 6
+count: 82 
+scan_faults: 1  data: 2
+count: 83 
+scan_faults: 1  data:  
+count: 84 
+scan_faults: 1  data: 9
+count: 85 
+scan_faults: 1  data: 2
+count: 86 
+scan_faults: 1  data:  
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data: 1
+count: 89 
+scan_faults: 1  data:  
+count: 90 
+scan_faults: 1  data: 
+
+count: 91 
+scan_faults: 1  data: 9
+count: 92 
+scan_faults: 1  data: 3
+count: 93 
+scan_faults: 1  data:  
+count: 94 
+scan_faults: 1  data: 7
+count: 95 
+scan_faults: 1  data: 2
+count: 96 
+scan_faults: 1  data:  
+count: 97 
+scan_faults: 1  data: 8
+count: 98 
+scan_faults: 1  data: 2
+count: 99 
+scan_faults: 1  data:  
+count: 100 
+scan_faults: 1  data: 0
+count: 101 
+scan_faults: 1  data: 1
+count: 102 
+scan_faults: 1  data:  
+count: 103 
+scan_faults: 1  data: 
+
+count: 104 
+scan_faults: 1  data: 9
+count: 105 
+scan_faults: 1  data: 3
+count: 106 
+scan_faults: 1  data:  
+count: 107 
+scan_faults: 1  data: 9
+count: 108 
+scan_faults: 1  data: 2
+count: 109 
+scan_faults: 1  data:  
+count: 110 
+scan_faults: 1  data: 2
+count: 111 
+scan_faults: 1  data: 2
+count: 112 
+scan_faults: 1  data:  
+count: 113 
+scan_faults: 1  data: 0
+count: 114 
+scan_faults: 1  data: 0
+count: 115 
+scan_faults: 1  data:  
+count: 116 
+scan_faults: 1  data: 
+
+count: 117 
+scan_faults: 1  data: 1
+count: 118 
+scan_faults: 1  data: 3
+count: 119 
+scan_faults: 1  data:  
+count: 120 
+scan_faults: 1  data: d
+count: 121 
+scan_faults: 1  data: 3
+count: 122 
+scan_faults: 1  data:  
+count: 123 
+scan_faults: 1  data: 4
+count: 124 
+scan_faults: 1  data: 2
+count: 125 
+scan_faults: 1  data:  
+count: 126 
+scan_faults: 1  data: 0
+count: 127 
+scan_faults: 1  data: 0
+count: 128 
+scan_faults: 1  data:  
+count: 129 
+scan_faults: 1  data: 
+
+count: 130 
+scan_faults: 1  data: 9
+count: 131 
+scan_faults: 1  data: 3
+count: 132 
+scan_faults: 1  data:  
+count: 133 
+scan_faults: 1  data: 0
+count: 134 
+scan_faults: 1  data: 6
+count: 135 
+scan_faults: 1  data:  
+count: 136 
+scan_faults: 1  data: 0
+count: 137 
+scan_faults: 1  data: 0
+count: 138 
+scan_faults: 1  data:  
+count: 139 
+scan_faults: 1  data: 8
+count: 140 
+scan_faults: 1  data: 0
+count: 141 
+scan_faults: 1  data:  
+count: 142 
+scan_faults: 1  data: 
+
+count: 143 
+scan_faults: 1  data: 1
+count: 144 
+scan_faults: 1  data: 3
+count: 145 
+scan_faults: 1  data:  
+count: 146 
+scan_faults: 1  data: d
+count: 147 
+scan_faults: 1  data: 3
+count: 148 
+scan_faults: 1  data:  
+count: 149 
+scan_faults: 1  data: 4
+count: 150 
+scan_faults: 1  data: 2
+count: 151 
+scan_faults: 1  data:  
+count: 152 
+scan_faults: 1  data: 4
+count: 153 
+scan_faults: 1  data: 0
+count: 154 
+scan_faults: 1  data:  
+count: 155 
+scan_faults: 1  data: 
+
+count: 156 
+scan_faults: 1  data: b
+count: 157 
+scan_faults: 1  data: 3
+count: 158 
+scan_faults: 1  data:  
+count: 159 
+scan_faults: 1  data: 0
+count: 160 
+scan_faults: 1  data: 3
+count: 161 
+scan_faults: 1  data:  
+count: 162 
+scan_faults: 1  data: 6
+count: 163 
+scan_faults: 1  data: 1
+count: 164 
+scan_faults: 1  data:  
+count: 165 
+scan_faults: 1  data: 0
+count: 166 
+scan_faults: 1  data: 0
+count: 167 
+scan_faults: 1  data:  
+count: 168 
+scan_faults: 1  data: 
+
+count: 169 
+scan_faults: 1  data: 3
+count: 170 
+scan_faults: 1  data: 3
+count: 171 
+scan_faults: 1  data:  
+count: 172 
+scan_faults: 1  data: 8
+count: 173 
+scan_faults: 1  data: 3
+count: 174 
+scan_faults: 1  data:  
+count: 175 
+scan_faults: 1  data: 4
+count: 176 
+scan_faults: 1  data: 3
+count: 177 
+scan_faults: 1  data:  
+count: 178 
+scan_faults: 1  data: 4
+count: 179 
+scan_faults: 1  data: 0
+count: 180 
+scan_faults: 1  data:  
+count: 181 
+scan_faults: 1  data: 
+
+count: 182 
+scan_faults: 1  data: 3
+count: 183 
+scan_faults: 1  data: 3
+count: 184 
+scan_faults: 1  data:  
+count: 185 
+scan_faults: 1  data: 0
+count: 186 
+scan_faults: 1  data: 3
+count: 187 
+scan_faults: 1  data:  
+count: 188 
+scan_faults: 1  data: 7
+count: 189 
+scan_faults: 1  data: 2
+count: 190 
+scan_faults: 1  data:  
+count: 191 
+scan_faults: 1  data: 4
+count: 192 
+scan_faults: 1  data: 0
+count: 193 
+scan_faults: 1  data:  
+count: 194 
+scan_faults: 1  data: 
+
+count: 195 
+scan_faults: 1  data: 9
+count: 196 
+scan_faults: 1  data: 3
+count: 197 
+scan_faults: 1  data:  
+count: 198 
+scan_faults: 1  data: 0
+count: 199 
+scan_faults: 1  data: 3
+count: 200 
+scan_faults: 1  data:  
+count: 201 
+scan_faults: 1  data: 2
+count: 202 
+scan_faults: 1  data: 0
+count: 203 
+scan_faults: 1  data:  
+count: 204 
+scan_faults: 1  data: 0
+count: 205 
+scan_faults: 1  data: 0
+count: 206 
+scan_faults: 1  data:  
+count: 207 
+scan_faults: 1  data: 
+
+count: 208 
+scan_faults: 1  data: 3
+count: 209 
+scan_faults: 1  data: 3
+count: 210 
+scan_faults: 1  data:  
+count: 211 
+scan_faults: 1  data: 9
+count: 212 
+scan_faults: 1  data: 4
+count: 213 
+scan_faults: 1  data:  
+count: 214 
+scan_faults: 1  data: 7
+count: 215 
+scan_faults: 1  data: 3
+count: 216 
+scan_faults: 1  data:  
+count: 217 
+scan_faults: 1  data: 0
+count: 218 
+scan_faults: 1  data: 0
+count: 219 
+scan_faults: 1  data:  
+count: 220 
+scan_faults: 1  data: 
+
+count: 221 
+scan_faults: 1  data: b
+count: 222 
+scan_faults: 1  data: 3
+count: 223 
+scan_faults: 1  data:  
+count: 224 
+scan_faults: 1  data: a
+count: 225 
+scan_faults: 1  data: 4
+count: 226 
+scan_faults: 1  data:  
+count: 227 
+scan_faults: 1  data: 8
+count: 228 
+scan_faults: 1  data: 3
+count: 229 
+scan_faults: 1  data:  
+count: 230 
+scan_faults: 1  data: 0
+count: 231 
+scan_faults: 1  data: 0
+count: 232 
+scan_faults: 1  data:  
+count: 233 
+scan_faults: 1  data: 
+
+count: 234 
+scan_faults: 1  data: 9
+count: 235 
+scan_faults: 1  data: 3
+count: 236 
+scan_faults: 1  data:  
+count: 237 
+scan_faults: 1  data: 0
+count: 238 
+scan_faults: 1  data: 3
+count: 239 
+scan_faults: 1  data:  
+count: 240 
+scan_faults: 1  data: 6
+count: 241 
+scan_faults: 1  data: 0
+count: 242 
+scan_faults: 1  data:  
+count: 243 
+scan_faults: 1  data: f
+count: 244 
+scan_faults: 1  data: f
+count: 245 
+scan_faults: 1  data:  
+count: 246 
+scan_faults: 1  data: 
+
+count: 247 
+scan_faults: 1  data: 3
+count: 248 
+scan_faults: 1  data: 3
+count: 249 
+scan_faults: 1  data:  
+count: 250 
+scan_faults: 1  data: 3
+count: 251 
+scan_faults: 1  data: 5
+count: 252 
+scan_faults: 1  data:  
+count: 253 
+scan_faults: 1  data: 7
+count: 254 
+scan_faults: 1  data: 4
+count: 255 
+scan_faults: 1  data:  
+count: 256 
+scan_faults: 1  data: 0
+count: 257 
+scan_faults: 1  data: 0
+count: 258 
+scan_faults: 1  data:  
+count: 259 
+scan_faults: 1  data: 
+
+count: 260 
+scan_faults: 1  data: 3
+count: 261 
+scan_faults: 1  data: 3
+count: 262 
+scan_faults: 1  data:  
+count: 263 
+scan_faults: 1  data: 2
+count: 264 
+scan_faults: 1  data: 5
+count: 265 
+scan_faults: 1  data:  
+count: 266 
+scan_faults: 1  data: 7
+count: 267 
+scan_faults: 1  data: 4
+count: 268 
+scan_faults: 1  data:  
+count: 269 
+scan_faults: 1  data: 0
+count: 270 
+scan_faults: 1  data: 0
+count: 271 
+scan_faults: 1  data:  
+count: 272 
+scan_faults: 1  data: 
+
+count: 273 
+scan_faults: 1  data: b
+count: 274 
+scan_faults: 1  data: 3
+count: 275 
+scan_faults: 1  data:  
+count: 276 
+scan_faults: 1  data: 4
+count: 277 
+scan_faults: 1  data: 5
+count: 278 
+scan_faults: 1  data:  
+count: 279 
+scan_faults: 1  data: 6
+count: 280 
+scan_faults: 1  data: 4
+count: 281 
+scan_faults: 1  data:  
+count: 282 
+scan_faults: 1  data: 0
+count: 283 
+scan_faults: 1  data: 0
+count: 284 
+scan_faults: 1  data:  
+count: 285 
+scan_faults: 1  data: 
+
+count: 286 
+scan_faults: 1  data: 9
+count: 287 
+scan_faults: 1  data: 3
+count: 288 
+scan_faults: 1  data:  
+count: 289 
+scan_faults: 1  data: 0
+count: 290 
+scan_faults: 1  data: 3
+count: 291 
+scan_faults: 1  data:  
+count: 292 
+scan_faults: 1  data: 2
+count: 293 
+scan_faults: 1  data: 0
+count: 294 
+scan_faults: 1  data:  
+count: 295 
+scan_faults: 1  data: 0
+count: 296 
+scan_faults: 1  data: 0
+count: 297 
+scan_faults: 1  data:  
+count: 298 
+scan_faults: 1  data: 
+
+count: 299 
+scan_faults: 1  data: b
+count: 300 
+scan_faults: 1  data: 3
+count: 301 
+scan_faults: 1  data:  
+count: 302 
+scan_faults: 1  data: d
+count: 303 
+scan_faults: 1  data: 5
+count: 304 
+scan_faults: 1  data:  
+count: 305 
+scan_faults: 1  data: 7
+count: 306 
+scan_faults: 1  data: 5
+count: 307 
+scan_faults: 1  data:  
+count: 308 
+scan_faults: 1  data: 0
+count: 309 
+scan_faults: 1  data: 0
+count: 310 
+scan_faults: 1  data:  
+count: 311 
+scan_faults: 1  data: 
+
+count: 312 
+scan_faults: 1  data: b
+count: 313 
+scan_faults: 1  data: 3
+count: 314 
+scan_faults: 1  data:  
+count: 315 
+scan_faults: 1  data: e
+count: 316 
+scan_faults: 1  data: 5
+count: 317 
+scan_faults: 1  data:  
+count: 318 
+scan_faults: 1  data: b
+count: 319 
+scan_faults: 1  data: 3
+count: 320 
+scan_faults: 1  data:  
+count: 321 
+scan_faults: 1  data: 0
+count: 322 
+scan_faults: 1  data: 0
+count: 323 
+scan_faults: 1  data:  
+count: 324 
+scan_faults: 1  data: 
+
+count: 325 
+scan_faults: 1  data: b
+count: 326 
+scan_faults: 1  data: 3
+count: 327 
+scan_faults: 1  data:  
+count: 328 
+scan_faults: 1  data: f
+count: 329 
+scan_faults: 1  data: 5
+count: 330 
+scan_faults: 1  data:  
+count: 331 
+scan_faults: 1  data: 7
+count: 332 
+scan_faults: 1  data: 5
+count: 333 
+scan_faults: 1  data:  
+count: 334 
+scan_faults: 1  data: 0
+count: 335 
+scan_faults: 1  data: 0
+count: 336 
+scan_faults: 1  data:  
+count: 337 
+scan_faults: 0  data:  
+count: 338 
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 918.801 ; gain = 0.000
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'FullProcessor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/test1R_Itype.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/DataMemInit.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj FullProcessor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/dflipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dflipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Accumulativeflip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulativeflip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/decoder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/clkdivider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdivider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/new/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/muxarray.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxarray
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/RippleCarryAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-311] analyzing module ripple0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/ALU_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessorPipelined
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sim_1/imports/Lec_Project_Code_rules/FullProcessor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullProcessor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.sim/sim_1/behav'
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto fbf0e0eefe394a4d893bada3069f5ee6 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FullProcessor_tb_behav xil_defaultlib.FullProcessor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:52]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port regwrite [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/Regfile.v:32]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:94]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port cin [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:153]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 9 for port b [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:162]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:178]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port sel [C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/new/FullProcessorPipelined.v:223]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/immgen.v" Line 3. Module rv32_ImmGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 22. Module prv32_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.srcs/sources_1/imports/Lec_Project_Code_rules/prv32_ALU.v" Line 3. Module shifter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdivider
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.muxarray_default
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.Accumulativeflip(N=64)
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.ripple0_default
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.muxarray(N=10)
+Compiling module xil_defaultlib.Accumulativeflip_default
+Compiling module xil_defaultlib.decoder32
+Compiling module xil_defaultlib.RegFile_default
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.Accumulativeflip(N=169)
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_control_unit
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.muxarray(N=9)
+Compiling module xil_defaultlib.Accumulativeflip(N=149)
+Compiling module xil_defaultlib.SingleMem
+Compiling module xil_defaultlib.Accumulativeflip(N=104)
+Compiling module xil_defaultlib.FullProcessorPipelined
+Compiling module xil_defaultlib.FullProcessor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullProcessor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+scan_faults: 1  data: 1
+count: 1 
+scan_faults: 1  data: 3
+count: 2 
+scan_faults: 1  data:  
+count: 3 
+scan_faults: 1  data: 0
+count: 4 
+scan_faults: 1  data: 3
+count: 5 
+scan_faults: 1  data:  
+count: 6 
+scan_faults: 1  data: 7
+count: 7 
+scan_faults: 1  data: 0
+count: 8 
+scan_faults: 1  data:  
+count: 9 
+scan_faults: 1  data: 0
+count: 10 
+scan_faults: 1  data: 0
+count: 11 
+scan_faults: 1  data:  
+count: 12 
+scan_faults: 1  data: 
+
+count: 13 
+scan_faults: 1  data: 9
+count: 14 
+scan_faults: 1  data: 3
+count: 15 
+scan_faults: 1  data:  
+count: 16 
+scan_faults: 1  data: 0
+count: 17 
+scan_faults: 1  data: 2
+count: 18 
+scan_faults: 1  data:  
+count: 19 
+scan_faults: 1  data: 3
+count: 20 
+scan_faults: 1  data: 0
+count: 21 
+scan_faults: 1  data:  
+count: 22 
+scan_faults: 1  data: 0
+count: 23 
+scan_faults: 1  data: 1
+count: 24 
+scan_faults: 1  data:  
+count: 25 
+scan_faults: 1  data: 
+
+count: 26 
+scan_faults: 1  data: 9
+count: 27 
+scan_faults: 1  data: 3
+count: 28 
+scan_faults: 1  data:  
+count: 29 
+scan_faults: 1  data: 8
+count: 30 
+scan_faults: 1  data: 6
+count: 31 
+scan_faults: 1  data:  
+count: 32 
+scan_faults: 1  data: 1
+count: 33 
+scan_faults: 1  data: 2
+count: 34 
+scan_faults: 1  data:  
+count: 35 
+scan_faults: 1  data: 0
+count: 36 
+scan_faults: 1  data: 0
+count: 37 
+scan_faults: 1  data:  
+count: 38 
+scan_faults: 1  data: 
+
+count: 39 
+scan_faults: 1  data: 9
+count: 40 
+scan_faults: 1  data: 3
+count: 41 
+scan_faults: 1  data:  
+count: 42 
+scan_faults: 1  data: a
+count: 43 
+scan_faults: 1  data: 0
+count: 44 
+scan_faults: 1  data:  
+count: 45 
+scan_faults: 1  data: f
+count: 46 
+scan_faults: 1  data: 2
+count: 47 
+scan_faults: 1  data:  
+count: 48 
+scan_faults: 1  data: f
+count: 49 
+scan_faults: 1  data: e
+count: 50 
+scan_faults: 1  data:  
+count: 51 
+scan_faults: 1  data: 
+
+count: 52 
+scan_faults: 1  data: 1
+count: 53 
+scan_faults: 1  data: 3
+count: 54 
+scan_faults: 1  data:  
+count: 55 
+scan_faults: 1  data: b
+count: 56 
+scan_faults: 1  data: 1
+count: 57 
+scan_faults: 1  data:  
+count: 58 
+scan_faults: 1  data: f
+count: 59 
+scan_faults: 1  data: 2
+count: 60 
+scan_faults: 1  data:  
+count: 61 
+scan_faults: 1  data: f
+count: 62 
+scan_faults: 1  data: e
+count: 63 
+scan_faults: 1  data:  
+count: 64 
+scan_faults: 1  data: 
+
+count: 65 
+scan_faults: 1  data: 1
+count: 66 
+scan_faults: 1  data: 3
+count: 67 
+scan_faults: 1  data:  
+count: 68 
+scan_faults: 1  data: 4
+count: 69 
+scan_faults: 1  data: 2
+count: 70 
+scan_faults: 1  data:  
+count: 71 
+scan_faults: 1  data: 9
+count: 72 
+scan_faults: 1  data: 3
+count: 73 
+scan_faults: 1  data:  
+count: 74 
+scan_faults: 1  data: 0
+count: 75 
+scan_faults: 1  data: 1
+count: 76 
+scan_faults: 1  data:  
+count: 77 
+scan_faults: 1  data: 
+
+count: 78 
+scan_faults: 1  data: 1
+count: 79 
+scan_faults: 1  data: 3
+count: 80 
+scan_faults: 1  data:  
+count: 81 
+scan_faults: 1  data: 6
+count: 82 
+scan_faults: 1  data: 2
+count: 83 
+scan_faults: 1  data:  
+count: 84 
+scan_faults: 1  data: 9
+count: 85 
+scan_faults: 1  data: 2
+count: 86 
+scan_faults: 1  data:  
+count: 87 
+scan_faults: 1  data: 0
+count: 88 
+scan_faults: 1  data: 1
+count: 89 
+scan_faults: 1  data:  
+count: 90 
+scan_faults: 1  data: 
+
+count: 91 
+scan_faults: 1  data: 9
+count: 92 
+scan_faults: 1  data: 3
+count: 93 
+scan_faults: 1  data:  
+count: 94 
+scan_faults: 1  data: 7
+count: 95 
+scan_faults: 1  data: 2
+count: 96 
+scan_faults: 1  data:  
+count: 97 
+scan_faults: 1  data: 8
+count: 98 
+scan_faults: 1  data: 2
+count: 99 
+scan_faults: 1  data:  
+count: 100 
+scan_faults: 1  data: 0
+count: 101 
+scan_faults: 1  data: 1
+count: 102 
+scan_faults: 1  data:  
+count: 103 
+scan_faults: 1  data: 
+
+count: 104 
+scan_faults: 1  data: 9
+count: 105 
+scan_faults: 1  data: 3
+count: 106 
+scan_faults: 1  data:  
+count: 107 
+scan_faults: 1  data: 9
+count: 108 
+scan_faults: 1  data: 2
+count: 109 
+scan_faults: 1  data:  
+count: 110 
+scan_faults: 1  data: 2
+count: 111 
+scan_faults: 1  data: 2
+count: 112 
+scan_faults: 1  data:  
+count: 113 
+scan_faults: 1  data: 0
+count: 114 
+scan_faults: 1  data: 0
+count: 115 
+scan_faults: 1  data:  
+count: 116 
+scan_faults: 1  data: 
+
+count: 117 
+scan_faults: 1  data: 1
+count: 118 
+scan_faults: 1  data: 3
+count: 119 
+scan_faults: 1  data:  
+count: 120 
+scan_faults: 1  data: d
+count: 121 
+scan_faults: 1  data: 3
+count: 122 
+scan_faults: 1  data:  
+count: 123 
+scan_faults: 1  data: 4
+count: 124 
+scan_faults: 1  data: 2
+count: 125 
+scan_faults: 1  data:  
+count: 126 
+scan_faults: 1  data: 0
+count: 127 
+scan_faults: 1  data: 0
+count: 128 
+scan_faults: 1  data:  
+count: 129 
+scan_faults: 1  data: 
+
+count: 130 
+scan_faults: 1  data: 9
+count: 131 
+scan_faults: 1  data: 3
+count: 132 
+scan_faults: 1  data:  
+count: 133 
+scan_faults: 1  data: 0
+count: 134 
+scan_faults: 1  data: 6
+count: 135 
+scan_faults: 1  data:  
+count: 136 
+scan_faults: 1  data: 0
+count: 137 
+scan_faults: 1  data: 0
+count: 138 
+scan_faults: 1  data:  
+count: 139 
+scan_faults: 1  data: 8
+count: 140 
+scan_faults: 1  data: 0
+count: 141 
+scan_faults: 1  data:  
+count: 142 
+scan_faults: 1  data: 
+
+count: 143 
+scan_faults: 1  data: 1
+count: 144 
+scan_faults: 1  data: 3
+count: 145 
+scan_faults: 1  data:  
+count: 146 
+scan_faults: 1  data: d
+count: 147 
+scan_faults: 1  data: 7
+count: 148 
+scan_faults: 1  data:  
+count: 149 
+scan_faults: 1  data: 4
+count: 150 
+scan_faults: 1  data: 6
+count: 151 
+scan_faults: 1  data:  
+count: 152 
+scan_faults: 1  data: 4
+count: 153 
+scan_faults: 1  data: 0
+count: 154 
+scan_faults: 1  data:  
+count: 155 
+scan_faults: 1  data: 
+
+count: 156 
+scan_faults: 1  data: b
+count: 157 
+scan_faults: 1  data: 3
+count: 158 
+scan_faults: 1  data:  
+count: 159 
+scan_faults: 1  data: 0
+count: 160 
+scan_faults: 1  data: 3
+count: 161 
+scan_faults: 1  data:  
+count: 162 
+scan_faults: 1  data: 6
+count: 163 
+scan_faults: 1  data: 1
+count: 164 
+scan_faults: 1  data:  
+count: 165 
+scan_faults: 1  data: 0
+count: 166 
+scan_faults: 1  data: 0
+count: 167 
+scan_faults: 1  data:  
+count: 168 
+scan_faults: 1  data: 
+
+count: 169 
+scan_faults: 1  data: 3
+count: 170 
+scan_faults: 1  data: 3
+count: 171 
+scan_faults: 1  data:  
+count: 172 
+scan_faults: 1  data: 8
+count: 173 
+scan_faults: 1  data: 3
+count: 174 
+scan_faults: 1  data:  
+count: 175 
+scan_faults: 1  data: 4
+count: 176 
+scan_faults: 1  data: 3
+count: 177 
+scan_faults: 1  data:  
+count: 178 
+scan_faults: 1  data: 4
+count: 179 
+scan_faults: 1  data: 0
+count: 180 
+scan_faults: 1  data:  
+count: 181 
+scan_faults: 1  data: 
+
+count: 182 
+scan_faults: 1  data: 3
+count: 183 
+scan_faults: 1  data: 3
+count: 184 
+scan_faults: 1  data:  
+count: 185 
+scan_faults: 1  data: 0
+count: 186 
+scan_faults: 1  data: 3
+count: 187 
+scan_faults: 1  data:  
+count: 188 
+scan_faults: 1  data: 7
+count: 189 
+scan_faults: 1  data: 2
+count: 190 
+scan_faults: 1  data:  
+count: 191 
+scan_faults: 1  data: 4
+count: 192 
+scan_faults: 1  data: 0
+count: 193 
+scan_faults: 1  data:  
+count: 194 
+scan_faults: 1  data: 
+
+count: 195 
+scan_faults: 1  data: 9
+count: 196 
+scan_faults: 1  data: 3
+count: 197 
+scan_faults: 1  data:  
+count: 198 
+scan_faults: 1  data: 0
+count: 199 
+scan_faults: 1  data: 3
+count: 200 
+scan_faults: 1  data:  
+count: 201 
+scan_faults: 1  data: 2
+count: 202 
+scan_faults: 1  data: 0
+count: 203 
+scan_faults: 1  data:  
+count: 204 
+scan_faults: 1  data: 0
+count: 205 
+scan_faults: 1  data: 0
+count: 206 
+scan_faults: 1  data:  
+count: 207 
+scan_faults: 1  data: 
+
+count: 208 
+scan_faults: 1  data: 3
+count: 209 
+scan_faults: 1  data: 3
+count: 210 
+scan_faults: 1  data:  
+count: 211 
+scan_faults: 1  data: 9
+count: 212 
+scan_faults: 1  data: 4
+count: 213 
+scan_faults: 1  data:  
+count: 214 
+scan_faults: 1  data: 7
+count: 215 
+scan_faults: 1  data: 3
+count: 216 
+scan_faults: 1  data:  
+count: 217 
+scan_faults: 1  data: 0
+count: 218 
+scan_faults: 1  data: 0
+count: 219 
+scan_faults: 1  data:  
+count: 220 
+scan_faults: 1  data: 
+
+count: 221 
+scan_faults: 1  data: b
+count: 222 
+scan_faults: 1  data: 3
+count: 223 
+scan_faults: 1  data:  
+count: 224 
+scan_faults: 1  data: a
+count: 225 
+scan_faults: 1  data: 4
+count: 226 
+scan_faults: 1  data:  
+count: 227 
+scan_faults: 1  data: 8
+count: 228 
+scan_faults: 1  data: 3
+count: 229 
+scan_faults: 1  data:  
+count: 230 
+scan_faults: 1  data: 0
+count: 231 
+scan_faults: 1  data: 0
+count: 232 
+scan_faults: 1  data:  
+count: 233 
+scan_faults: 1  data: 
+
+count: 234 
+scan_faults: 1  data: 9
+count: 235 
+scan_faults: 1  data: 3
+count: 236 
+scan_faults: 1  data:  
+count: 237 
+scan_faults: 1  data: 0
+count: 238 
+scan_faults: 1  data: 3
+count: 239 
+scan_faults: 1  data:  
+count: 240 
+scan_faults: 1  data: 6
+count: 241 
+scan_faults: 1  data: 0
+count: 242 
+scan_faults: 1  data:  
+count: 243 
+scan_faults: 1  data: f
+count: 244 
+scan_faults: 1  data: f
+count: 245 
+scan_faults: 1  data:  
+count: 246 
+scan_faults: 1  data: 
+
+count: 247 
+scan_faults: 1  data: 3
+count: 248 
+scan_faults: 1  data: 3
+count: 249 
+scan_faults: 1  data:  
+count: 250 
+scan_faults: 1  data: 3
+count: 251 
+scan_faults: 1  data: 5
+count: 252 
+scan_faults: 1  data:  
+count: 253 
+scan_faults: 1  data: 7
+count: 254 
+scan_faults: 1  data: 4
+count: 255 
+scan_faults: 1  data:  
+count: 256 
+scan_faults: 1  data: 0
+count: 257 
+scan_faults: 1  data: 0
+count: 258 
+scan_faults: 1  data:  
+count: 259 
+scan_faults: 1  data: 
+
+count: 260 
+scan_faults: 1  data: 3
+count: 261 
+scan_faults: 1  data: 3
+count: 262 
+scan_faults: 1  data:  
+count: 263 
+scan_faults: 1  data: 2
+count: 264 
+scan_faults: 1  data: 5
+count: 265 
+scan_faults: 1  data:  
+count: 266 
+scan_faults: 1  data: 7
+count: 267 
+scan_faults: 1  data: 4
+count: 268 
+scan_faults: 1  data:  
+count: 269 
+scan_faults: 1  data: 0
+count: 270 
+scan_faults: 1  data: 0
+count: 271 
+scan_faults: 1  data:  
+count: 272 
+scan_faults: 1  data: 
+
+count: 273 
+scan_faults: 1  data: b
+count: 274 
+scan_faults: 1  data: 3
+count: 275 
+scan_faults: 1  data:  
+count: 276 
+scan_faults: 1  data: 4
+count: 277 
+scan_faults: 1  data: 5
+count: 278 
+scan_faults: 1  data:  
+count: 279 
+scan_faults: 1  data: 6
+count: 280 
+scan_faults: 1  data: 4
+count: 281 
+scan_faults: 1  data:  
+count: 282 
+scan_faults: 1  data: 0
+count: 283 
+scan_faults: 1  data: 0
+count: 284 
+scan_faults: 1  data:  
+count: 285 
+scan_faults: 1  data: 
+
+count: 286 
+scan_faults: 1  data: 9
+count: 287 
+scan_faults: 1  data: 3
+count: 288 
+scan_faults: 1  data:  
+count: 289 
+scan_faults: 1  data: 0
+count: 290 
+scan_faults: 1  data: 3
+count: 291 
+scan_faults: 1  data:  
+count: 292 
+scan_faults: 1  data: 2
+count: 293 
+scan_faults: 1  data: 0
+count: 294 
+scan_faults: 1  data:  
+count: 295 
+scan_faults: 1  data: 0
+count: 296 
+scan_faults: 1  data: 0
+count: 297 
+scan_faults: 1  data:  
+count: 298 
+scan_faults: 1  data: 
+
+count: 299 
+scan_faults: 1  data: b
+count: 300 
+scan_faults: 1  data: 3
+count: 301 
+scan_faults: 1  data:  
+count: 302 
+scan_faults: 1  data: d
+count: 303 
+scan_faults: 1  data: 5
+count: 304 
+scan_faults: 1  data:  
+count: 305 
+scan_faults: 1  data: 7
+count: 306 
+scan_faults: 1  data: 5
+count: 307 
+scan_faults: 1  data:  
+count: 308 
+scan_faults: 1  data: 0
+count: 309 
+scan_faults: 1  data: 0
+count: 310 
+scan_faults: 1  data:  
+count: 311 
+scan_faults: 1  data: 
+
+count: 312 
+scan_faults: 1  data: b
+count: 313 
+scan_faults: 1  data: 3
+count: 314 
+scan_faults: 1  data:  
+count: 315 
+scan_faults: 1  data: e
+count: 316 
+scan_faults: 1  data: 5
+count: 317 
+scan_faults: 1  data:  
+count: 318 
+scan_faults: 1  data: b
+count: 319 
+scan_faults: 1  data: 3
+count: 320 
+scan_faults: 1  data:  
+count: 321 
+scan_faults: 1  data: 0
+count: 322 
+scan_faults: 1  data: 0
+count: 323 
+scan_faults: 1  data:  
+count: 324 
+scan_faults: 1  data: 
+
+count: 325 
+scan_faults: 1  data: b
+count: 326 
+scan_faults: 1  data: 3
+count: 327 
+scan_faults: 1  data:  
+count: 328 
+scan_faults: 1  data: f
+count: 329 
+scan_faults: 1  data: 5
+count: 330 
+scan_faults: 1  data:  
+count: 331 
+scan_faults: 1  data: 7
+count: 332 
+scan_faults: 1  data: 5
+count: 333 
+scan_faults: 1  data:  
+count: 334 
+scan_faults: 1  data: 0
+count: 335 
+scan_faults: 1  data: 0
+count: 336 
+scan_faults: 1  data:  
+count: 337 
+scan_faults: 0  data:  
+count: 338 
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 918.801 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 21 16:13:45 2020...

@@ -1,0 +1,424 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Tue Nov 24 17:41:57 2020
+| Host         : CSE-P07-2168-07 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FullProcessorPipelined_control_sets_placed.rpt
+| Design       : FullProcessorPipelined
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   352 |
+| Unused register locations in slices containing registers |   856 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1191 |          616 |
+| No           | No                    | Yes                    |             505 |          225 |
+| No           | Yes                   | No                     |             120 |           40 |
+| Yes          | No                    | No                     |              64 |           20 |
+| Yes          | No                    | Yes                    |            1024 |          637 |
+| Yes          | Yes                   | No                     |              32 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|              Clock Signal             |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++---------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+|  mod12/ecall0                         |                                   |                                   |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+|  UART/IN7/out_signal_OBUF_BUFG[0]     |                                   |                                   |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_9                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_6                  |                1 |              1 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_8                  |                2 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[0]    | UART/IN6/Q_reg_2                  |                1 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[1]    | UART/IN6/Q_reg_2                  |                1 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[5]    | UART/IN6/Q_reg_2                  |                1 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[2]    | UART/IN6/Q_reg_2                  |                1 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_2                  |                1 |              2 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[3]    | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[4]    | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_7                  |                3 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[29]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[28]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_2                  |                2 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[27]   | UART/IN6/Q_reg_2                  |                1 |              3 |
+|  ID_EX/genblk1[160].mod2/E[0]         |                                   |                                   |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN1/bitcounter[3]_i_2__0_n_1 | UART/IN1/bitcounter[3]_i_1__0_n_1 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN0/bitcounter[3]_i_2_n_1    | UART/IN0/bitcounter[3]_i_1_n_1    |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN7/sel                      | UART/IN7/bitcounter[3]_i_1__6_n_1 |                2 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN6/bitcounter[3]_i_2__5_n_1 | UART/IN6/bitcounter[3]_i_1__5_n_1 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN5/bitcounter[3]_i_2__4_n_1 | UART/IN5/bitcounter[3]_i_1__4_n_1 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN4/bitcounter[3]_i_2__3_n_1 | UART/IN4/bitcounter[3]_i_1__3_n_1 |                1 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN3/bitcounter[3]_i_2__2_n_1 | UART/IN3/bitcounter[3]_i_1__2_n_1 |                1 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[0]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[0]    | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[1]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[1]    | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[2]    | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[2]    | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[3]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[3]    | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[3]    | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[4]    | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[4]    | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[4]    | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[5]    | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[5]    | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_5                  |                4 |              4 |
+|  ssdclk_IBUF_BUFG                     | UART/IN2/bitcounter[3]_i_2__1_n_1 | UART/IN2/bitcounter[3]_i_1__1_n_1 |                1 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_3                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_3                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_3                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_4                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_5                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_3                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[27]   | UART/IN6/Q_reg_5                  |                3 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[27]   | UART/IN6/Q_reg_3                  |                1 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[28]   | UART/IN6/Q_reg_3                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[28]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[29]   | UART/IN6/Q_reg_3                  |                4 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[29]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_3                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_4                  |                2 |              4 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_3                  |                3 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_5                  |                4 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_6                  |                5 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[0]    | UART/IN6/Q_reg_3                  |                3 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[2]    | UART/IN6/Q_reg_4                  |                2 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[27]   | UART/IN6/Q_reg_4                  |                3 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[28]   | UART/IN6/Q_reg_5                  |                4 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[29]   | UART/IN6/Q_reg_5                  |                4 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[5]    | UART/IN6/Q_reg_3                  |                2 |              5 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_rep__0             |                3 |              5 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[1]    | UART/IN6/Q_reg_4                  |                3 |              5 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_2                  |                3 |              7 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_16[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_17[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_18[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_19[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_2[0]  |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_20[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_21[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_22[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_23[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_24[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_25[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_26[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_27[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_28[0] |                                   |                                   |                7 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_29[0] |                                   |                                   |                2 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_3[0]  |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_30[0] |                                   |                                   |                2 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_32[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_33[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_34[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_35[0] |                                   |                                   |                8 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_36[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_37[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_38[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_39[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_4[0]  |                                   |                                   |                8 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_40[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_41[0] |                                   |                                   |                7 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_42[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_43[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_44[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_45[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_46[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_47[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_49[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_5[0]  |                                   |                                   |                2 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_50[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_51[0] |                                   |                                   |                7 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_52[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_53[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_54[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_55[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_56[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_57[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_58[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_59[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_6[0]  |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_60[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_61[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_62[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_63[0] |                                   |                                   |                7 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_64[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_65[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_66[0] |                                   |                                   |                2 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_67[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_68[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_69[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_7[0]  |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_70[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_71[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_72[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_73[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_74[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_75[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_76[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_77[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_78[0] |                                   |                                   |                2 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_8[0]  |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_80[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_81[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_82[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_83[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_84[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_85[0] |                                   |                                   |                6 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_86[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_87[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_88[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_89[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_9[0]  |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_90[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_91[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_92[0] |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_93[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_94[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_95[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_96[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[8].mod2/Q_reg_18[0]   |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[8].mod2/Q_reg_31[0]   |                                   |                                   |                2 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_373[0]   |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_31[0] |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_370[0]   |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_368[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_365[0]   |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_363[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_399[0]   |                                   |                                   |                6 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_360[0]   |                                   |                                   |                2 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_357[0]   |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_354[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_396[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_352[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_350[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_394[0]   |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_347[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_344[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_391[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_342[0]   |                                   |                                   |                6 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_340[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_388[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_337[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_334[0]   |                                   |                                   |                7 |              8 |
+|  EX_MEM/genblk1[145].mod2/E[0]        |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_386[0]   |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_1[0]  |                                   |                                   |                4 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_332[0]   |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_10[0] |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_383[0]   |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_329[0]   |                                   |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_11[0] |                                   |                                   |                6 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_327[0]   |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_48[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_12[0] |                                   |                                   |                5 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_380[0]   |                                   |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_324[0]   |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_15[0] |                                   |                                   |                4 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_13[0] |                                   |                                   |                5 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_79[0] |                                   |                                   |                7 |              8 |
+|  ssdclk_IBUF_BUFG                     |                                   | uart_in_IBUF                      |                8 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN2/rxshiftreg[5]            |                                   |                3 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN1/rxshiftreg[0]            |                                   |                3 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_377[0]   |                                   |                                   |                3 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN0/rxshiftreg_0[5]          |                                   |                3 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN7/rxshiftreg[0]            |                                   |                2 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN6/rxshiftreg[0]            |                                   |                3 |              8 |
+|  EX_MEM/genblk1[145].mod2/Q_reg_14[0] |                                   |                                   |                4 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN5/rxshiftreg[5]            |                                   |                2 |              8 |
+|  mod14/genblk1[0].mod2/Q_reg_375[0]   |                                   |                                   |                3 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN4/rxshiftreg[5]            |                                   |                2 |              8 |
+|  ssdclk_IBUF_BUFG                     | UART/IN3/rxshiftreg[5]            |                                   |                2 |              8 |
+|  UART/IN5/E[0]                        |                                   |                                   |                4 |              9 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[6]    | UART/IN6/Q_reg_7                  |                8 |             12 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[14]   | UART/IN6/Q_reg_8                  |                7 |             13 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN0/counter[0]_i_1_n_1       |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN1/counter[0]_i_1__0_n_1    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN2/counter[0]_i_1__1_n_1    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN3/counter[0]_i_1__2_n_1    |                4 |             14 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[22]   | UART/IN6/Q_reg_9                  |                9 |             14 |
+|  slowerclk_BUFG                       | mod14/genblk1[31].mod2/Q_reg_1    | UART/IN6/Q_reg                    |                5 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN5/counter[0]_i_1__4_n_1    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN4/counter[0]_i_1__3_n_1    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN6/counter[0]_i_1__5_n_1    |                4 |             14 |
+|  ssdclk_IBUF_BUFG                     |                                   | UART/IN7/clear                    |                4 |             14 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[30]   | UART/IN6/Q_reg_10                 |                7 |             15 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[24]   | UART/IN6/Q_reg_9                  |               11 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[20]   | UART/IN6/Q_reg_8                  |                6 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[9]    | UART/IN6/Q_reg_7                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[10]   | UART/IN6/Q_reg_7                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[29]   | UART/IN6/Q_reg_9                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[16]   | UART/IN6/Q_reg_8                  |                9 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[21]   | UART/IN6/Q_reg_8                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[25]   | UART/IN6/Q_reg_9                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[28]   | UART/IN6/Q_reg_9                  |                9 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[7]    | UART/IN6/Q_reg_7                  |                8 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[17]   | UART/IN6/Q_reg_8                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[19]   | UART/IN6/Q_reg_8                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[27]   | UART/IN6/Q_reg_9                  |                9 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[12]   | UART/IN6/Q_reg_7                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[18]   | UART/IN6/Q_reg_8                  |                7 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[15]   | UART/IN6/Q_reg_8                  |               12 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[26]   | UART/IN6/Q_reg_9                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[8]    | UART/IN6/Q_reg_7                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[23]   | UART/IN6/Q_reg_9                  |               10 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[13]   | UART/IN6/Q_reg_7                  |                8 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[11]   | UART/IN6/Q_reg_7                  |                8 |             16 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[5]    | UART/IN6/Q_reg_6                  |                7 |             17 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[1]    | UART/IN6/Q_reg_6                  |               12 |             17 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[4]    | UART/IN6/Q_reg_6                  |               13 |             17 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[0]    | UART/IN6/Q_reg_6                  |               11 |             17 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[2]    | UART/IN6/Q_reg_6                  |                9 |             17 |
+| ~UART/IN7/out_signal_OBUF_BUFG[0]     | MEM_WB/genblk1[4].mod2/load[3]    | UART/IN6/Q_reg_6                  |                8 |             17 |
+|  slowerclk_BUFG                       | mod14/genblk1[31].mod2/Q_reg_1    | UART/IN6/Q_reg_0                  |                9 |             18 |
+|  slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_0                  |               13 |             26 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_1                  |               10 |             26 |
+|  n_0_7035_BUFG                        |                                   |                                   |               23 |             32 |
+|  slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_2                  |               16 |             32 |
+|  slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_10                 |               19 |             44 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg                    |               30 |             49 |
+|  slowerclk_BUFG                       |                                   | UART/IN6/Q_reg                    |               22 |             64 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_10                 |               32 |             68 |
+| ~slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_0                  |               39 |             83 |
+|  slowerclk_BUFG                       |                                   | UART/IN6/Q_reg_1                  |               38 |            101 |
+|  ssdclk_IBUF_BUFG                     |                                   |                                   |               30 |            112 |
++---------------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    23 |
+| 2      |                     6 |
+| 3      |                    27 |
+| 4      |                    93 |
+| 5      |                    11 |
+| 7      |                     1 |
+| 8      |                   138 |
+| 9      |                     1 |
+| 12     |                     1 |
+| 13     |                     1 |
+| 14     |                    10 |
+| 15     |                     1 |
+| 16+    |                    39 |
++--------+-----------------------+
+
+

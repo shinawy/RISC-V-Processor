@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_ms3_new.srcs/sources_1/imports/sourses/or32.v"
+verilog xil_defaultlib  "../../../project_ms3_new.srcs/sources_1/imports/sourses/and32.v"
+verilog xil_defaultlib  "../../../project_ms3_new.srcs/sources_1/imports/sourses/RippleCarryAdder.v"
+verilog xil_defaultlib  "../../../project_ms3_new.srcs/sources_1/imports/sourses/ALU32bit.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

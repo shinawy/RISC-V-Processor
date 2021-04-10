@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Nov 24 17:41:10 2020
+# Process ID: 7260
+# Current directory: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1
+# Command line: vivado.exe -log FullProcessorPipelined.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FullProcessorPipelined.tcl -notrace
+# Log file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1/FullProcessorPipelined.vdi
+# Journal file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FullProcessorPipelined.tcl -notrace

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Nov 24 14:17:55 2020
+# Process ID: 9836
+# Current directory: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11500 C:\Users\CSE.CAL\Desktop\MarawanMahmoud\Lec_Project_Code_rules\project_ms3_new\project_ms3_new.xpr
+# Log file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/vivado.log
+# Journal file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1/FullProcessorPipelined.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1/FullProcessorPipelined.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.runs/impl_1/FullProcessorPipelined.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

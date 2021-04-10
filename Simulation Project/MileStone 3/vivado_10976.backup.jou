@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Nov 21 12:16:30 2020
+# Process ID: 10976
+# Current directory: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7336 C:\Users\CSE.CAL\Desktop\MarawanMahmoud\Lec_Project_Code_rules\MileStone 3\MileStone 3.xpr
+# Log file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/vivado.log
+# Journal file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/MileStone 3/MileStone 3.xpr}
+launch_simulation
+source FullProcessor_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

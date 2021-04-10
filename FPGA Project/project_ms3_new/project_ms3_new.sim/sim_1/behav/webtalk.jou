@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Nov 23 16:37:17 2020
+# Process ID: 4492
+# Current directory: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav/xsim.dir/ALU32bit_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/CSE.CAL/Desktop/MarawanMahmoud/Lec_Project_Code_rules/project_ms3_new/project_ms3_new.sim/sim_1/behav/xsim.dir/ALU32bit_behav/webtalk/xsim_webtalk.tcl -notrace
